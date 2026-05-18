@@ -5,8 +5,8 @@ let nextId = 1
 function TodoApp() {
   const [input, setInput] = useState('')
   const [tareas, setTareas] = useState([
-    { id: nextId++, texto: 'Leer la consigna del TP6', completada: true },
-    { id: nextId++, texto: 'Crear componentes en React', completada: false },
+    { id: nextId++, texto: 'Comprar notebook', completada: true },
+    { id: nextId++, texto: 'Comprar una remera', completada: false },
   ])
 
   const agregar = () => {
