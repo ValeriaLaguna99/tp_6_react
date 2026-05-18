@@ -2,12 +2,12 @@ import { useState } from 'react'
 import Card from './Card'
 
 const productos = [
-  { id: 1, nombre: 'iPhone 15 Pro', precio: 1299, categoria: 'Electrónica', enStock: true },
-  { id: 2, nombre: 'Remera Oversize', precio: 29, categoria: 'Ropa', enStock: true },
-  { id: 3, nombre: 'AirPods Pro', precio: 249, categoria: 'Electrónica', enStock: false },
-  { id: 4, nombre: 'Zapatillas Running', precio: 119, categoria: 'Ropa', enStock: true },
-  { id: 5, nombre: 'MacBook Air M3', precio: 1499, categoria: 'Electrónica', enStock: true },
-  { id: 6, nombre: 'Campera Denim', precio: 79, categoria: 'Ropa', enStock: false },
+  { id: 1, nombre: 'iPhone 15 Pro', precio: 2801299, categoria: 'Electrónica', enStock: true },
+  { id: 2, nombre: 'Remera Oversize', precio: 35729, categoria: 'Ropa', enStock: true },
+  { id: 3, nombre: 'AirPods Pro', precio: 70249, categoria: 'Electrónica', enStock: false },
+  { id: 4, nombre: 'Zapatillas Running', precio: 75119, categoria: 'Ropa', enStock: true },
+  { id: 5, nombre: 'MacBook Air M3', precio: 901499, categoria: 'Electrónica', enStock: true },
+  { id: 6, nombre: 'Campera Denim', precio: 60999, categoria: 'Ropa', enStock: false },
 ]
 
 function ProductList() {
