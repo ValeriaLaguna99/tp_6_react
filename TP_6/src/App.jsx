@@ -12,25 +12,55 @@ function App() {
     <>
       <Header />
       <main>
-        <h2>Cards</h2>
-        <div className="card-grid">
-          <Card titulo="UI/UX Design" descripcion="Interfaces modernas y accesibles." imagen="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400" precio={0} />
-          <Card titulo="React Dev" descripcion="Componentes reutilizables con hooks." imagen="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400" precio={99} />
-          <Card titulo="Git & Versioning" descripcion="Control de versiones profesional." imagen="https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=400" />
-          <Card titulo="Vite + React" descripcion="Bundler ultrarrápido con HMR." imagen="https://images.unsplash.com/photo-1627398242454-45a1465c2479?w=400" precio={0} />
-        </div>
+        <section id="cards">
+          <h2>Promociones</h2>
+          <div className="card-grid">
+            <Card
+              titulo="Tablet Samsung Galaxy"
+              descripcion="Pantalla 10.5 pulgadas, 128GB de almacenamiento, ideal para trabajo y entretenimiento."
+              imagen="https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400"
+              precio={230.349}
+            />
+            <Card
+              titulo="Notebook Lenovo IdeaPad"
+              descripcion="Procesador Intel i5, 16GB RAM, 512GB SSD. Perfecta para estudiar y trabajar."
+              imagen="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400"
+              precio={1.100799}
+            />
+            <Card
+              titulo="Celular Xiaomi 13"
+              descripcion="Cámara 108MP, batería 5000mAh, pantalla AMOLED 6.67 pulgadas."
+              imagen="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400"
+              precio={500.499}
+            />
+            <Card
+              titulo="Pantalla LG 27 4K"
+              descripcion="Resolución 4K UHD, panel IPS, 144Hz. Ideal para diseño y gaming."
+              imagen="https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400"
+              precio={805.429}
+            />
+          </div>
+        </section>
 
-        <h2>Contador</h2>
-        <Contador />
+        <section id="contador">
+          <h2>Contador</h2>
+          <Contador />
+        </section>
 
-        <h2>Formulario</h2>
-        <ContactForm />
+        <section id="formulario">
+          <h2>Formulario</h2>
+          <ContactForm />
+        </section>
 
-        <h2>Productos</h2>
-        <ProductList />
+        <section id="productos">
+          <h2>Productos</h2>
+          <ProductList />
+        </section>
 
-        <h2>To-Do</h2>
-        <TodoApp />
+        <section id="todo">
+          <h2>To-Do</h2>
+          <TodoApp />
+        </section>
       </main>
       <Footer />
     </>
