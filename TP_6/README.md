@@ -19,3 +19,5 @@ npm run dev
 - Formulario controlado con preview en vivo
 - Lista de productos con filtrado
 - To-Do App con CRUD completo
+## Capturas
+Las capturas de pantalla estan dentro de la carpeta Sreenshots en public
