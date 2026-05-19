@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <h1>TP6 · React</h1>
+      <h1>Tienda de Vale</h1>
       <nav>
         <a href="#cards">Cards</a>
         <a href="#contador">Contador</a>

@@ -9,6 +9,13 @@
   --muted: #888;
   --radius: 12px;
 }
+&:hover {
+  border-color: var(--danger);
+}
+&:focus-visible {
+  outline: 2px solid var(--danger);
+  outline-offset: 2px;
+}
 
 *, *::before, *::after {
   box-sizing: border-box;

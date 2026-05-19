@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      © {new Date().getFullYear()} · TP6 React · Hecho con React + Vite
+      © {new Date().getFullYear()} · Valeria Roxana Laguna
     </footer>
   )
 }
